@@ -5,5 +5,9 @@ test:
     - cat /proc/self/cgroup
     - cat /proc/self/status
     - find /sys/fs/cgroup/
-    - cgm ping
-    - cgm listcontrollers
+    - find /usr/sbin
+    - find /usr/bin
+    - find /usr/local/sbin
+    - find /usr/local/bin
+    - sudo cgm ping
+    - sudo cgm listcontrollers
