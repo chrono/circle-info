@@ -5,3 +5,5 @@ test:
     - cat /proc/self/cgroup
     - cat /proc/self/status
     - find /sys/fs/cgroup/
+    - cgm ping
+    - cgm listcontrollers
