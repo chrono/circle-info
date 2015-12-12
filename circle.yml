@@ -1,3 +1,7 @@
 test:
   override:
+    - mount
+    - cat /proc/cpuinfo
+    - cat /proc/self/cgroup
+    - cat /proc/self/status
     - find /sys/fs/cgroup/
