@@ -9,5 +9,7 @@ test:
     - find /usr/bin
     - find /usr/local/sbin
     - find /usr/local/bin
+    - lsb_release -a
+    - dpkg -l
     - sudo cgm ping
     - sudo cgm listcontrollers
