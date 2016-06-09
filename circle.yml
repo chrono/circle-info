@@ -1,5 +1,7 @@
 test:
   override:
+    - pip --version
+    - virtualenv --version
     - mount
     - cat /proc/cpuinfo
     - cat /proc/self/cgroup
