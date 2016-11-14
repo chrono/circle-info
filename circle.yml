@@ -4,6 +4,7 @@ test:
     - virtualenv --version
     - mount
     - cat /proc/cpuinfo
+    - cat /proc/meminfo
     - cat /proc/self/cgroup
     - cat /proc/self/status
     - find /sys/fs/cgroup/
@@ -13,5 +14,3 @@ test:
     - find /usr/local/bin
     - lsb_release -a
     - dpkg -l
-    - sudo cgm ping
-    - sudo cgm listcontrollers
