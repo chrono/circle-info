@@ -5,6 +5,8 @@ jobs:
     steps:
       - run:
           command: |
+            set -x
+            getconf _NPROCESSORS_ONLN
             cat /proc/cpuinfo
             cat /proc/meminfo
             cat /proc/self/cgroup
