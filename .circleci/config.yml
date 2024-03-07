@@ -1,5 +1,5 @@
 jobs:
-  test:
+  build:
     docker:
       - image: cimg/base:stable # primary container will run the latest, production-ready base image
     steps:
